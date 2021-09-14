@@ -1,0 +1,32 @@
+template:
+
+  version: 1.0
+  author: ynk
+
+  name: About Default
+  desc: Your presentation
+  
+  layout:
+
+    header:
+      module: Header
+
+    title:
+      block: Title
+      override:
+        text:
+          option:
+            size: xl
+        tag: 
+          default: h1
+
+    presentation:
+      block: Content
+      override:
+        content:
+          field: Quill
+          title: Texte de présentation
+          default: Hello i'm a guy without name
+  
+    footer:
+      module: Footer

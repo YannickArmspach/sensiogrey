@@ -1,0 +1,74 @@
+block:
+
+  version: 1.2
+  author: linotype
+  
+  name: Hero
+  desc: Create hero
+  
+  parent: all
+  accept: all
+
+  context: 
+
+    title:
+      name: Title
+      field: Textarea
+      persist: meta
+    
+    tag:
+      name: Tag
+      desc: Define the title tag for SEO
+      field: Select
+      persist: static
+      option:
+        data:
+          h1: H1
+          h2: H2
+          h3: H3
+          h4: H4
+          h5: H5
+          h6: H6
+          p: p
+          span: span
+          div: div
+      default: h1
+      css: false
+      js: false
+
+    html_1:
+      field: Html
+      persist: meta
+      option:
+        html: <h5>Feature 1</h5>
+
+    title_1:
+      name: Title
+      desc: 
+      field: Text
+      persist: meta
+
+    desc_1:
+      name: Dscription
+      field: Quill
+      persist: meta
+      option:
+        toolbar_presets: minimal
+
+    html_2:
+      field: Html
+      persist: meta
+      option:
+        html: <h5>Feature 2</h5>
+
+    title_2:
+      name: Title
+      field: Text
+      persist: meta
+
+    desc_2:
+      name: Description
+      field: Quill
+      persist: meta
+      option:
+        toolbar_presets: minimal

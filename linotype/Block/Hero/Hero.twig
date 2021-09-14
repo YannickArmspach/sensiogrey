@@ -1,0 +1,22 @@
+{% if title %}
+  
+  <div data-block-id="{{block.uid}}" id="{{block.id}}" class="{{block.class}}">
+    
+    <{{tag}} class="title">{{title}}</{{tag}}>
+    
+    <div class="row">
+      <div class="col">
+        <h2 class="content-title">{{title_1}}</h3>
+        <div class="content-desc">{{desc_1|raw}}</div>
+      </div>
+      <div class="col">
+        <h2 class="content-title">{{title_2}}</h3>
+        <div class="content-desc">{{desc_2|raw}}</div>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+
+  </div>
+
+{% endif %}

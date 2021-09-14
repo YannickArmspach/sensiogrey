@@ -1,0 +1,10 @@
+/*!
+	 * reveal.js plugin that adds syntax highlight support.
+	 */
+
+/*!
+ * Chart.js v3.1.1
+ * https://www.chartjs.org
+ * (c) 2021 Chart.js Contributors
+ * Released under the MIT License
+ */

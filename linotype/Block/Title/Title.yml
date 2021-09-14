@@ -1,0 +1,98 @@
+block:
+
+  version: 1.2
+  author: linotype
+  
+  name: Title
+  desc: Create a simple title
+  
+  parent: all
+  accept: all
+
+  context: 
+
+    text:
+      name: Text
+      desc: 
+      field: Text
+      persist: meta
+      option:
+        placeholder: The title
+      default: The Title
+      preview: Lorem ipusum
+      js: false
+    
+    tag:
+      name: Tag
+      desc: Define the title tag for SEO
+      field: Select
+      persist: static
+      option:
+        data:
+          h1: H1
+          h2: H2
+          h3: H3
+          h4: H4
+          h5: H5
+          h6: H6
+          p: p
+          span: span
+          div: div
+      default: span
+      css: false
+      js: false
+
+    color:
+      name: Color
+      desc: 
+      field: Color
+      persist: static
+      default: '#bdbdbd'
+      css: true
+      js: false
+
+    margin:
+      name: Margin
+      desc: 
+      field: Text
+      persist: static
+      value: 1rem 0 1rem 0
+      css: false
+      js: false
+
+    font_size:
+      name: Size
+      desc: 
+      field: Text
+      persist: static
+      value: 2rem
+      css: true
+      js: false
+
+  # preset:
+
+  #     big_red_h1:
+  #       tag:
+  #         value: h1
+  #       color:
+  #         value: red
+  #       font_size:
+  #         value: 6rem
+
+  #   h1_static:
+  #     text:
+  #       persist: static
+  #     tag:
+  #       value: h1
+
+  #   full_meta:
+  #     text:
+  #       persist: meta
+  #     tag:
+  #       persist: meta
+  #     color:
+  #       persist: meta
+  #     margin:
+  #       persist: meta
+  #     font_size:
+  #       persist: meta

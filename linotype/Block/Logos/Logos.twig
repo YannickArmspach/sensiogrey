@@ -1,0 +1,15 @@
+<div data-block-id="{{block.uid}}" id="{{block.id}}" class="{{block.class}}">
+
+  <h2>{{title}}</h2>
+  
+  <div class="logos">
+  
+    {% set image_desktop = linotype('helper','File.getFile', { id: image_desktop } ) %}
+    <img src="{{image_desktop.src}}" width="100%"/>
+    
+    {% set image_mobile = linotype('helper','File.getFile', { id: image_mobile } ) %}
+    {# <img src="{{image_mobile.src}}" width="100%"/> #}
+  
+  </div>
+
+</div>

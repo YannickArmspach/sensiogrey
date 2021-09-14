@@ -1,0 +1,5 @@
+<div data-field-id="{{field.uid}}" data-key="{{field.key}}" id="{{field.id}}" class="{{field.class}} form-group" data-type="Title" data-controller="Title">
+    {% if title %}<label class="form-label">{{title}}</label>{% endif %}
+    <input type="date" class="linotype-field-value form-input" name="{{field.key}}" placeholder="{{placeholder}}" value="{{field.value}}">
+    {% if help %}<div class="form-help">{{help|raw}}</div>{% endif %}
+</div>

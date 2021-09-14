@@ -1,0 +1,29 @@
+block:
+
+  version: 1.2
+  author: linotype
+  
+  name: Footer
+  desc: Create a simple footer
+  
+  parent: all
+  accept: all
+
+  context: 
+
+    title:
+      name: Title
+      field: Text
+      persist: option
+
+    infos:
+      name: Infos
+      field: Quill
+      persist: option
+      option:
+        toolbar_presets: minimal
+
+    legal:
+      name: Legal
+      field: Text
+      persist: option

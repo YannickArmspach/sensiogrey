@@ -1,0 +1,13 @@
+module:
+
+  version: 1.0
+  author: linotype
+  
+  name: Footer
+  desc: Display footer website
+
+  layout:
+
+    footer:
+      title: Footer
+      block: Footer

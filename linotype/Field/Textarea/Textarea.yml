@@ -1,0 +1,20 @@
+field:
+
+  version: 1.0
+  author: linotype
+  
+  name: Textarea
+  desc: Simple textarea field
+
+  title: Label
+  help: Enter your text
+  require: false
+
+  format:
+    type: string
+    max_lenght: LONG_TEXT
+    min_lenght: 0
+
+  option:
+    placeholder: 
+    rows: 3

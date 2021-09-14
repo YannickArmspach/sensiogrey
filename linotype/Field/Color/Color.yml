@@ -1,0 +1,20 @@
+field:
+
+  version: 1.0
+  author: ynk
+  
+  name: Color
+  desc: Color picker
+
+  package:
+    "simonwep/pickr": "latest"
+
+  title: Label
+  help: Select a color
+  require: false
+
+  format:
+    type: long_text
+
+  option:
+    placeholder:

@@ -1,0 +1,39 @@
+block:
+
+  version: 1.2
+  author: linotype
+  
+  name: Image
+  desc: Create an image
+  
+  parent: all
+  accept: all
+
+  context: 
+
+    src:
+      name: Image source (url)
+      desc: 
+      field: File
+      persist: meta
+      option:
+        placeholder: Image link
+      default: ''
+      preview: ''
+      role: # create,read,update,delete
+        admin: full
+        editor: update
+        manager: read
+
+    size:
+      name: Size
+      desc: Select the image Size
+      field: Select
+      persist: static
+      option:
+        data:
+          big: Big
+          medium: Default
+          small: Small
+      default: medium
+    

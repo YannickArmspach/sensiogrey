@@ -1,0 +1,37 @@
+field:
+
+  version: 1.0
+  author: linotype
+  
+  name: Composer
+  desc: Compose blocks from the backend
+
+  package:
+    "dragula": "latest"
+
+  title: Label
+  help: Create content with blocks
+  require: false
+
+  format:
+    type: long_text
+    
+  option:
+    blocks: 
+      - Title
+      - Content
+      - Slider
+      # - Composer
+    min: 0
+    max: 100
+    data:
+      -
+        block: Title
+        override:
+          content:
+            title: Texte de présentation
+            default: Hello i'm a guy with no name
+      -
+        block: Content
+      -
+        block: Content

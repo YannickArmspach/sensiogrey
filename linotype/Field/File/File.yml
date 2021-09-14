@@ -1,0 +1,19 @@
+field:
+
+  version: 1.0
+  author: linotype
+  
+  name: File
+  desc: Simple file field
+
+  title: Label
+  help: Enter your text
+  require: false
+
+  format:
+    type: string
+    max_lenght: 255
+    min_lenght: 0
+
+  option:
+    placeholder:

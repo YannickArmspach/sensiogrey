@@ -1,0 +1,31 @@
+theme:
+  
+  version: 1.0
+  author: linotype
+
+  name: Default
+  desc: default theme
+
+  locale: en
+  locales: 
+    en: English
+    # fr: French
+    # de: German
+    # es: Spanish
+
+  map:
+    
+    landing:
+      name: Landing
+      desc: Temp landing page
+      icon: '@Linotype/Icons/bookmark.svg'
+      public: true
+      path: /
+      template: Landing
+      type: page
+      view: true
+      edit: true
+      delete: false
+      create: false
+
+    

@@ -1,0 +1,14 @@
+{
+    "name": "linotype/starter",
+    "type": "linotype",
+    "description": "Linotype starter project",
+    "keywords": [
+        "linotype"
+    ],
+    "homepage": "https://linotype.dev",
+    "license": "MIT",
+    "require": {
+        "linotype/installers": "^1.0"
+    },
+    "minimum-stability": "dev"
+}

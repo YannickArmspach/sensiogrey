@@ -1,0 +1,34 @@
+.field--color {
+  display: relative;
+
+  .input-group-addon {
+    position: relative;
+    padding: 0 !important;
+  }
+
+  .pickr .pcr-button {
+    height: 2.4em;
+    width: 2.4em;
+  }
+
+  .pickr .pcr-button:after,
+  .pickr .pcr-button:before {
+    border-radius: 0rem !important;
+  }
+
+  .field {
+    position: relative;
+
+    >.pickr {
+      position: absolute;
+      left: 2px;
+      top: 1px;
+
+    }
+
+    >input {
+      padding-left: 35px !important;
+    }
+
+  }
+}

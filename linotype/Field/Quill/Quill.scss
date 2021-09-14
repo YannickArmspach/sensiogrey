@@ -1,0 +1,74 @@
+.field--quill {
+  display: relative;
+
+  .ql-container {
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  .ql-toolbar {
+    background: #fff;
+    z-index: 100;
+  }
+  
+  .ql-editor {
+
+    p,
+    ol,
+    ul,
+    pre,
+    blockquote,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: inherit;
+      padding: inherit;
+    }
+
+    &.ql-blank::before {
+      color: rgba(0, 0, 0, 0.3);
+      margin: inherit;
+      padding: inherit;
+    }
+
+    line {
+      display: block;
+      font-size: 13px;
+      line-height: 1.42;
+    }
+
+  }
+
+  &.fullwidth {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    
+    .ql-toolbar, 
+    .ql-container {
+      border-left: 0;
+      border-right: 0;
+    
+    }
+    .form-label,
+    .form-help {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    
+    }
+
+  }
+
+  &.remove-margin-top {
+    margin-top: -2.05rem;
+  
+  }
+
+  &.remove-margin-bottom {
+    margin-bottom: -2.05rem;
+  
+  }
+
+}

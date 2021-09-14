@@ -1,0 +1,8 @@
+<div data-field-id="{{field.uid}}" data-key="{{field.key}}" id="{{field.id}}" class="{{field.class}} form-group" data-type="Title" data-controller="Title">
+    {% if title %}<label class="form-label">{{title}}</label>{% endif %}
+    <label class="form-switch">
+        <input type="checkbox" class="linotype-field-value" name="{{field.key}}" value="{{active_value}}" {{field.value == active_value ? 'checked' : ''}}>
+        <i class="form-icon"></i> {{info}}
+    </label>
+    {% if help %}<div class="form-help">{{help|raw}}</div>{% endif %}
+</div>

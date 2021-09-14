@@ -1,0 +1,30 @@
+template:
+
+  version: 1.0
+  author: ynk
+
+  name: Landing
+  desc: Landing page
+
+  layout:
+
+    header:
+      title: Header
+      help: Edit header information
+      module: Header
+
+    hero:
+      title: Hero
+      block: Hero
+
+    ref:
+      title: Références
+      block: Logos
+      override:
+        title: 
+          value: Références
+    
+    footer:
+      title: Footer
+      help: Edit the footer infos
+      module: Footer

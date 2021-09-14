@@ -1,0 +1,31 @@
+.block--logos {
+    padding: 75px 135px;
+
+    @media (max-width:700px) {
+        padding: 55px 35px;
+    }
+
+    background: #000;
+    margin-top: 10px;
+
+    h2 {
+        font-size: 50px;
+        line-height: 70px;
+        color: #ffffff;
+        font-weight: 300;
+        font-family: "Helvetica";
+
+        @media (max-width:700px) {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+
+    .logos {
+        padding: 100px 50px;
+
+        @media (max-width:700px) {
+            padding: 30px 10px;
+        }
+    }
+}

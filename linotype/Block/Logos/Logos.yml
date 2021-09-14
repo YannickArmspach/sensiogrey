@@ -1,0 +1,29 @@
+block:
+
+  version: 1.2
+  author: linotype
+  
+  name: Logos
+  desc: Display list of logos
+  
+  parent: all
+  accept: all
+
+  context: 
+
+    title:
+      name: Title
+      field: Text
+
+    image_desktop:
+      name: Image (desktop)
+      field: File
+      persist: meta
+
+    image_mobile:
+      name: Image (mobile)
+      field: File
+      persist: meta
+
+    
+    

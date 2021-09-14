@@ -1,0 +1,13 @@
+.block--header {
+    padding: 75px 135px;
+
+    @media (max-width:700px) {
+        padding: 55px 35px;
+    }
+
+    .logo {
+        width: 194px;
+        height: 25px;
+    }
+
+}

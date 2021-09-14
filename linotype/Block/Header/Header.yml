@@ -1,0 +1,17 @@
+block:
+
+  version: 1.2
+  author: linotype
+  
+  name: Header
+  desc: Create a simple header
+  
+  parent: all
+  accept: all
+
+  context: 
+
+    logo:
+      name: Logo
+      field: File
+      persist: option

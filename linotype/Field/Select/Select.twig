@@ -1,0 +1,13 @@
+<div data-field-id="{{field.uid}}" data-key="{{field.key}}" id="{{field.id}}" class="{{field.class}} form-group" data-type="Select" data-controller="Select">
+    {% if title %}<label class="form-label">{{title}}</label>{% endif %}
+    <select id="select--{{field.id}}" name="{{field.key}}" class="linotype-field-value form-select">
+        {% for key, option in data %}
+            {% if field.value %}
+                <option value="{{key}}" {{ field.value == key ? 'selected' : '' }}>{{option}}</option>
+            {% else %}
+                <option value="{{key}}" {{ field.default == key ? 'selected' : '' }}>{{option}}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+    {% if help %}<div class="form-help">{{help|raw}}</div>{% endif %}
+</div>
