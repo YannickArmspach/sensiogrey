@@ -20,6 +20,8 @@
 .phpunit.result.cache
 ###< phpunit/phpunit ###
 
+node_modules
+
 !/.env.local
 /.env.staging
 /.env.preproduction
